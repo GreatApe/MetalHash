@@ -11,6 +11,10 @@
 		A48180E52A842A79007D89D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48180E42A842A79007D89D9 /* ContentView.swift */; };
 		A48180E72A842A7D007D89D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48180E62A842A7D007D89D9 /* Assets.xcassets */; };
 		A48180EA2A842A7D007D89D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48180E92A842A7D007D89D9 /* Preview Assets.xcassets */; };
+		A48180F52A842BD6007D89D9 /* BlurHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48180F22A842B4D007D89D9 /* BlurHash.swift */; };
+		A48180F62A842BD8007D89D9 /* BlurHashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48180F12A842B4D007D89D9 /* BlurHashView.swift */; };
+		A48180F72A842BDB007D89D9 /* Float3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48180F42A842B4D007D89D9 /* Float3.swift */; };
+		A48180F82A842BDD007D89D9 /* BlurHash+Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = A48180F32A842B4D007D89D9 /* BlurHash+Shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		A48180E42A842A79007D89D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A48180E62A842A7D007D89D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A48180E92A842A7D007D89D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A48180F12A842B4D007D89D9 /* BlurHashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurHashView.swift; sourceTree = "<group>"; };
+		A48180F22A842B4D007D89D9 /* BlurHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurHash.swift; sourceTree = "<group>"; };
+		A48180F32A842B4D007D89D9 /* BlurHash+Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = "BlurHash+Shader.metal"; sourceTree = "<group>"; };
+		A48180F42A842B4D007D89D9 /* Float3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Float3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 			children = (
 				A48180E22A842A79007D89D9 /* MetalHashApp.swift */,
 				A48180E42A842A79007D89D9 /* ContentView.swift */,
+				A48180F02A842B4D007D89D9 /* BlurHash */,
 				A48180E62A842A7D007D89D9 /* Assets.xcassets */,
 				A48180E82A842A7D007D89D9 /* Preview Content */,
 			);
@@ -65,6 +74,17 @@
 				A48180E92A842A7D007D89D9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A48180F02A842B4D007D89D9 /* BlurHash */ = {
+			isa = PBXGroup;
+			children = (
+				A48180F12A842B4D007D89D9 /* BlurHashView.swift */,
+				A48180F22A842B4D007D89D9 /* BlurHash.swift */,
+				A48180F32A842B4D007D89D9 /* BlurHash+Shader.metal */,
+				A48180F42A842B4D007D89D9 /* Float3.swift */,
+			);
+			path = BlurHash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A48180E52A842A79007D89D9 /* ContentView.swift in Sources */,
+				A48180F72A842BDB007D89D9 /* Float3.swift in Sources */,
+				A48180F62A842BD8007D89D9 /* BlurHashView.swift in Sources */,
+				A48180F82A842BDD007D89D9 /* BlurHash+Shader.metal in Sources */,
 				A48180E32A842A79007D89D9 /* MetalHashApp.swift in Sources */,
+				A48180F52A842BD6007D89D9 /* BlurHash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
